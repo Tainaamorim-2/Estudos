@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* escolhi essa fonte para remeter um estilo mais simples e feminino, nao tao chamativo mas bonito */
+body {
+font-family: 'Merriweather Sans', sans-serif;
+background-color: #fbefff;  /* para o fundo, optei por uma cor mais clara  */
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh
+form {
+background-color: #ffffff;
+padding: 30px;
+border-radius: 12px;
+box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+width: 350px;
+text-align: center;
+border: 2px solid #d9b3ff; /* quis uma borda lilás suave para dar uma quebra no gelo  */
+}
+h1 {
+text-align: center;
+color: #663399; /* roxo mais forte para destacar  */
+margin-bottom: 20px;
+}
+p {
+font-size: 15px;
+color: #444444;
+margin: 12px 0;
+}
+input, button {
+width: 90%;
+padding: 10px;
+margin: 8px 0;
+border: 1px solid #d1c4e9; 
+border-radius: 6px;
+font-size: 14px;
+}
+input:focus {
+outline: none;
+border-color: #ba68c8; /* lilás médio para o botao, sempre alternando os tons */
+box-shadow: 0 0 5px #e1bee7;
+}
+button {
+background-color: #ba68c8; /* lilás médio tambem */
+color: white;
+font-weight: bold;
+border: none;
+cursor: pointer;
+transition: 0.3s;
+}
+button:hover {
+background-color: #9c27b0; /* lilás mais forte */
+}

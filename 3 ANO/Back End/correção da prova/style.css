@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Arbutus&family=Roboto:wght@300;400;700&display=swap');
+
+/* =======================
+   ESTILO GERAL DA PÁGINA
+   ======================= */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #0A2647, #144272, #205295);
+    color: #0A2647;
+    margin: 0;
+    padding: 0;
+}
+
+/* =======================
+   CABEÇALHO
+   ======================= */
+header {
+    background-color: #0A2647;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Arbutus', serif;
+    margin: 0;
+    font-size: 2.2em;
+    letter-spacing: 2px;
+}
+
+header ul {
+    list-style: none;
+    margin: 10px 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+header a {
+    text-decoration: none;
+    color: #A5D7E8;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+header a:hover {
+    color: #2C74B3;
+}
+
+/* =======================
+   CONTEÚDO PRINCIPAL
+   ======================= */
+main {
+    background-color: #ffffff;
+    width: 80%;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+main h1 {
+    font-family: 'Arbutus', serif;
+    color: #205295;
+    text-align: center;
+}
+
+main p {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+/* =======================
+   FORMULÁRIO
+   ======================= */
+form {
+    margin-top: 20px;
+}
+
+fieldset {
+    border: 2px solid #205295;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #A5D7E8;
+}
+
+legend {
+    font-family: 'Arbutus', serif;
+    color: #0A2647;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #0A2647;
+    font-weight: bold;
+}
+
+input[type="number"],
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #144272;
+    border-radius: 8px;
+    font-size: 1em;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    background-color: #2C74B3;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #144272;
+}
+
+/* =======================
+   RESULTADOS
+   ======================= */
+section {
+    background-color: #ffffff;
+    width: 80%;
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+section h2 {
+    font-family: 'Arbutus', serif;
+    color: #205295;
+    border-bottom: 2px solid #2C74B3;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section li {
+    padding: 6px 0;
+    font-size: 1em;
+}
+
+/* =======================
+   RODAPÉ
+   ======================= */
+footer {
+    background-color: #0A2647;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    margin-top: 30px;
+    font-size: 0.9em;
+    border-top: 3px solid #2C74B3;
+}
+
+/* =======================
+   COMENTÁRIO FINAL
+   ======================= */
+/*
+CORES ESCOLHIDAS 🎨
+#0A2647, #144272, #205295, #2C74B3, #A5D7E8
+Essa paleta foi escolhida por transmitir modernidade,
+tecnologia e confiança, combinando perfeitamente com
+a proposta da loja "PC-Pronto". Os tons de azul reforçam
+a ideia de segurança e inovação.
+
+FONTES ESCOLHIDAS ✍️
+Títulos: Arbutus — estilo marcante e criativo.
+Texto: Roboto — moderna e fácil de ler.
+A combinação traz um visual profissional e equilibrado.
+*/

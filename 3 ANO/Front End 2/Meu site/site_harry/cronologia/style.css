@@ -1,0 +1,52 @@
+.crono-img {
+        width: 280px;
+        float: right;
+        margin: 10px 0 10px 20px;
+        border: 2px solid #F2CC85;
+        border-radius: 6px;
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+      }
+      body {
+        font-family: "Segoe UI", sans-serif;
+        background-color: #fff;
+        color: #733B2F;
+        line-height: 1.6;
+        padding: 20px;
+      }
+      hr {
+        margin: 30px auto;
+        width: 100%;
+        border: 1px solid #F2CC85;
+      }
+      .botao-voltar {
+        position: fixed;
+        top: 30px;
+        right: 30px;
+        padding: 12px 20px;
+        background-color: #8BD9D1;
+        color: #000;
+        font-family: inherit; /* mantém a fonte usada no site */
+        text-decoration: none;
+        border-radius: 20px;
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+        z-index: 1000;
+        font-weight: bold;
+      }
+      
+      .botao-voltar:hover {
+        background-color: #EFBAD6;
+        color: #fff;
+      }
+      .imagem-central {
+        text-align: center;
+        margin: 20px auto;
+        width: 600px; 
+        max-width: 90%;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); }
+
+        .botao-voltar:hover {
+          background-color: #FBC5B9;
+          transform: scale(1.05);
+        }

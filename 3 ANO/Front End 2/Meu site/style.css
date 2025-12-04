@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+
+/* CONFIGURAÇÕES GERAIS */
+body {
+   margin: 0;
+    font-family: 'Poppins', sans-serif; /* nova fonte */
+    background-color: #fdf6fb;
+    color: #4a4a4a;
+    font-size: 18px; /* aumenta tudo um pouco */
+}
+
+/* MENU FIXO NO TOPO */
+header {
+    background-color: #f7c8e0; /* rosa suave */
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #6d2e6f;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #b84fb8;
+}
+
+/* SEÇÕES */
+section {
+    padding: 100px 20px 60px; /* 100px por causa do menu fixo */
+    text-align: center;
+}
+
+h1, h2 {
+    color: #b84fb8;
+    font-weight: 600;
+}
+
+/* HOME */
+#home img {
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 220px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.15);
+}
+
+/* PROJETOS */
+#projetos ul {
+    list-style: none;
+    padding: 0;
+}
+
+#projetos ul li {
+    background: #fbe7f3;
+    margin: 10px auto;
+    width: 60%;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+#projetos ul li a {
+    color: #6d2e6f;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#projetos ul li a:hover {
+    color: #b84fb8;
+}
+
+/* CONTATOS */
+#contato p {
+    font-size: 20px;  /* aumenta mais ainda os <p> */
+    line-height: 1.7; /* deixa mais espaçado e bonito */
+}
+
+/* RODAPÉ */
+footer {
+    background-color: #f7c8e0;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 50px;
+    font-weight: bold;
+    color: #6d2e6f;
+}
